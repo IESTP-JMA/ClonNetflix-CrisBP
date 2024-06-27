@@ -1,0 +1,109 @@
+
+        body {
+            background-color: #141414;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: #141414;
+            padding: 10px 0;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .navbar-nav li a {
+            color: white;
+            margin-right: 20px;
+        }
+
+        .navbar-nav li a:hover {
+            text-decoration: underline;
+        }
+
+        .container-fluid {
+            padding-top: 30px;
+        }
+
+        .series-title {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .series-description {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #e50914;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #c80812;
+        }
+
+        .popular-on-netflix {
+            margin-top: 50px;
+        }
+
+        .popular-on-netflix h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .movie-card {
+            position: relative;
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+
+        .movie-card-title {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 100%;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            text-align: left;
+        }
+
+        .movie-card-title::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .image-container{
+            position: absolute;
+        }
+
+        .text-over-image{
+            position: absolute;
+            top: 80%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 20px;
+        }
